@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b9137f-50be-48dd-ab19-90eaedafb336" name="更改" comment="接口更新">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e4b9137f-50be-48dd-ab19-90eaedafb336" name="更改" comment="矫正，无差">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +46,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "项目",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "build.tools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,6 +80,8 @@
       <workItem from="1715057751043" duration="1448000" />
       <workItem from="1715071366928" duration="737000" />
       <workItem from="1715126834703" duration="157000" />
+      <workItem from="1715150862545" duration="285000" />
+      <workItem from="1715156230389" duration="3307000" />
     </task>
     <task id="LOCAL-00001" summary="接口更新">
       <option name="closed" value="true" />
@@ -88,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715132819856</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="矫正，无差">
+      <option name="closed" value="true" />
+      <created>1715151113955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715151113955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first upload" />
     <MESSAGE value="接口更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="接口更新" />
+    <MESSAGE value="矫正，无差" />
+    <option name="LAST_COMMIT_MESSAGE" value="矫正，无差" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

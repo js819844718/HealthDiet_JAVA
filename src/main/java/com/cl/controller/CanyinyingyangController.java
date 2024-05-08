@@ -39,12 +39,12 @@ import com.cl.utils.CommonUtil;
 import java.io.IOException;
 
 /**
- * 餐饮营养
- * 后端接口
- * @author 
- * @email 
- * @date 2024-03-30 22:48:25
+ * @deprecated 餐饮营养 后端接口
+ * @author zhangjiangshuai
+ * @date 2024-04-30
+ *
  */
+
 @RestController
 @RequestMapping("/canyinyingyang")
 public class CanyinyingyangController {

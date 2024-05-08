@@ -36,7 +36,9 @@ import com.cl.utils.FileUtil;
 import com.cl.utils.R;
 import com.cl.utils.CommonUtil;
 /**
- * 通用接口
+ * @deprecated 通用接口
+ * @author zhangjiangshuai
+ * @date 2024-05-08
  */
 @RestController
 public class CommonController{

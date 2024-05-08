@@ -41,9 +41,8 @@ import java.io.IOException;
 /**
  * 餐饮信息评论表
  * 后端接口
- * @author 
- * @email 
- * @date 2024-03-30 22:48:25
+ * @author zhangjiangshuai
+ * @date 2024-05-08
  */
 @RestController
 @RequestMapping("/discusscanyinxinxi")

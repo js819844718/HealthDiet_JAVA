@@ -41,11 +41,9 @@ import com.cl.service.StoreupService;
 import com.cl.entity.StoreupEntity;
 
 /**
- * 餐饮信息
- * 后端接口
- * @author 
- * @email 
- * @date 2024-03-30 22:48:25
+ * @deprecated 餐饮信息 后端接口
+ * @author zhangjiangshuai
+ * @date 2024-05-08
  */
 @RestController
 @RequestMapping("/canyinxinxi")

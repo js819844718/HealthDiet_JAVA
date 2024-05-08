@@ -41,7 +41,7 @@ import com.cl.service.StoreupService;
 import com.cl.entity.StoreupEntity;
 
 /**
- * @deprecated 餐饮信息 后端接口
+ * 餐饮信息 后端接口
  * @author zhangjiangshuai
  * @date 2024-05-08
  */

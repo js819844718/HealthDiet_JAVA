@@ -39,7 +39,7 @@ import com.cl.utils.CommonUtil;
 import java.io.IOException;
 
 /**
- * @deprecated 餐饮营养 后端接口
+ * 餐饮营养 后端接口
  * @author zhangjiangshuai
  * @date 2024-04-30
  *

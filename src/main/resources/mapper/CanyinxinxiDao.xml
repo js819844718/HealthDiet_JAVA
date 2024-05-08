@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cl.dao.CanyinxinxiDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.cl.entity.CanyinxinxiEntity" id="canyinxinxiMap">
+        <result property="caipinmingcheng" column="caipinmingcheng"/>
+        <result property="caipintupian" column="caipintupian"/>
+        <result property="caipinfenlei" column="caipinfenlei"/>
+        <result property="yingyangjibie" column="yingyangjibie"/>
+        <result property="tuijianzhishu" column="tuijianzhishu"/>
+        <result property="caipinjianjie" column="caipinjianjie"/>
+        <result property="storeupnum" column="storeupnum"/>
+        <result property="clicktime" column="clicktime"/>
+    </resultMap>
+
+    <select id="selectListView"
+		resultType="com.cl.entity.view.CanyinxinxiView" >
+
+		SELECT  canyinxinxi.* FROM canyinxinxi  canyinxinxi 	        
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.cl.entity.view.CanyinxinxiView" >
+		SELECT * FROM canyinxinxi  canyinxinxi <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+
+</mapper>
